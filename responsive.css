@@ -1,0 +1,118 @@
+@media all and (max-width: 1000px) {
+    .header-left {
+        padding-top: 10px;
+    }
+    .header-logo {
+        font-size: 20px;
+    }
+    .booking-form {
+        padding-bottom: 50px;
+    }
+    .benefit-wrapper {
+        height: 600px;
+        margin-top: 100;
+    }
+    .benefit-title h4 {
+        text-align: center;
+        padding-left: 50px;
+    }
+    .tour-title h5 {
+        text-align: center;
+        margin: 15px 0;
+    }
+    .gallery {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .gallery-img {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 670px) {
+    header {
+        height: 70px;
+        width: 100%;
+    }
+    .header-logo {
+        font-size: 20px;
+    }
+    .header-right {
+        display: none; 
+    }
+    .menu-icon {
+        display: block;
+        padding: 15px 30px;
+        font-size: 30px;
+    }
+    .top-wrapper h2 {
+        letter-spacing: 5px;
+    }
+    .search-bar input[type=text] {
+        border-radius: 0;
+        width: 60%;
+    }
+    .search-bar button {
+        border-radius: 0;
+        width: 10%;
+    }
+    .input-form {
+        width: 100%;
+    }
+    .benefit-wrapper {
+        height: 1220px;
+    }
+    .benefit {
+        width: 100%
+    }
+    .gallerys {
+        display: none;
+    }
+    .explore-shortcut button {
+        border-radius: 0;
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    header {
+        width: 100%;
+    }
+    .container {
+        padding: 0;
+    }
+    .top-wrapper h1 {
+        font-size: 45px;
+        padding-top: 20px;
+    }
+    .benefit-wrapper {
+        height: 1350px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    header {
+        width: 100%;
+    }
+    .container {
+        padding: 2px 0;
+    }
+    .top-wrapper h1 {
+        font-size: 45px;
+        padding-top: 20px;
+    }
+    .benefit-wrapper {
+        height: 1200px;
+    }
+    .benefit-title h4 {
+        font-size: 30px;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .social-icon {
+        font-size: 25px;
+    }
+    ..copyright-content p {
+        font-size: 5px;
+    }
+}
